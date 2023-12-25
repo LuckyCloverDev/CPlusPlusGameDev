@@ -1,0 +1,20 @@
+﻿  Entity.cpp
+  EntityManager.cpp
+  Game.cpp
+C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Game.cpp(29,45): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Game.cpp(29,45): warning C4244:         with
+C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Game.cpp(29,45): warning C4244:         [
+C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Game.cpp(29,45): warning C4244:             T=float
+C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Game.cpp(29,45): warning C4244:         ]
+C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Game.cpp(29,37): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Game.cpp(29,37): warning C4244:         with
+C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Game.cpp(29,37): warning C4244:         [
+C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Game.cpp(29,37): warning C4244:             T=float
+C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Game.cpp(29,37): warning C4244:         ]
+  main.cpp
+  Generating code
+  276 of 428 functions (64.5%) were compiled, the rest were copied from previous compilation.
+    34 functions were new in current compilation
+    33 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  GameEngine.vcxproj -> C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\x64\Release\GameEngine.exe
