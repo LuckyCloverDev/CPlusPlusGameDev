@@ -139,6 +139,7 @@
     <ClCompile Include="Entity.cpp" />
     <ClCompile Include="EntityManager.cpp" />
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Input.hpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Vector2.cpp" />
   </ItemGroup>
@@ -146,10 +147,7 @@
     <Text Include="config.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CCollision.hpp" />
-    <ClInclude Include="CScore.hpp" />
-    <ClInclude Include="CShape.hpp" />
-    <ClInclude Include="CTransform.hpp" />
+    <ClInclude Include="Components.hpp" />
     <ClInclude Include="Entity.hpp" />
     <ClInclude Include="EntityManager.hpp" />
     <ClInclude Include="Game.hpp" />

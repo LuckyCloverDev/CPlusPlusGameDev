@@ -41,7 +41,15 @@ float Vector2::distance_to_squared(const Vector2& v) const { return (v.x - x) * 
 sf::Vector2f Vector2::to_sf_vector() { return sf::Vector2f(this->x, this->y); }
 
 float        Vector2::length()                       const { return sqrtf(x * x + y * y); }
-Vector2      Vector2::normalized()                   const { return (*this / this->distance_to(Vector2(0, 0))); }
+Vector2      Vector2::normalized()                   const { return (Vector2(0, 0) == *this) ? Vector2(0, 0) : (*this / this->distance_to(Vector2(0, 0))); }
+Vector2      Vector2::rotate(float degrees, bool radians = false) const
+{
+	if (!radians)
+		degrees = degrees * 3.141592653589793f / 180.f;
+	float x2 = cosf(degrees) * x - sinf(degrees) * y;
+	float y2 = sinf(degrees) * x + cosf(degrees) * y;
+	return Vector2(x2, y2);
+}
 void         Vector2::print()                        const { printf("(%.2f, %.2f)\n", this->x, this->y); }
 float        Vector2::angle_to_rad(const Vector2& v) const { return atan2f(v.y - this->y, v.x - this->x); }
 float        Vector2::angle_to_deg(const Vector2& v) const { return atan2f(v.y - this->y, v.x - this->x) / 3.14159265358979323f * 180.f; }

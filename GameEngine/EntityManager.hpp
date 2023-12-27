@@ -20,7 +20,8 @@ public:
     void update();
 
     std::shared_ptr<Entity> addEntity(const std::string& tag);
+	void removeDeadEntities(EntityVector& vec);
 
     EntityVector& getEntities();
-    EntityVector& getEntities(const std::string* tag);
+    EntityVector& getEntities(const std::string& tag);
 };

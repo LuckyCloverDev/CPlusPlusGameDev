@@ -2,32 +2,28 @@
 
 #include <string>
 
-#include "CTransform.hpp"
-#include "CShape.hpp"
-#include "CCollision.hpp"
-//#include "CInput.hpp"
-#include "CScore.hpp"
-//#include "CLifespan.hpp"
+#include "Components.hpp"
 
 class Entity
 {
-    const std::string m_tag;
-    bool m_alive = true;
-    const size_t m_id;
+	friend class EntityManager;
+
+    const std::string m_tag   = "Default";
+    bool              m_alive = true;
+    const size_t      m_id    = 0;
 
     Entity(const std::string& tag, size_t id);
 public:
-    std::shared_ptr<CTransform> cTransform;
-    std::shared_ptr<CShape>     cShape;
     std::shared_ptr<CCollision> cCollision;
-    //std::shared_ptr<CInput>     cInput;
+	std::shared_ptr<CFont>      cFont;
+    std::shared_ptr<CLifespan>  cLifespan;
     std::shared_ptr<CScore>     cScore;
-    //std::shared_ptr<CLifespan>  cLifespan;
+	std::shared_ptr<CShape>     cShape;
+	std::shared_ptr<CText>      cText;
+    std::shared_ptr<CTransform> cTransform;
 
     std::string tag();
     size_t id();
     bool is_dead();
     void queue_free();
-
-    friend class EntityManager;
 };

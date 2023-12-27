@@ -33,6 +33,7 @@ public:
     float distance_to(const Vector2& v) const;
     float distance_to_squared(const Vector2& v) const;
     Vector2 normalized() const;
+	Vector2 rotate(float degrees, bool radians) const;
     void print() const;
     float angle_to_rad(const Vector2& v) const;
     float angle_to_deg(const Vector2& v) const;
