@@ -1,0 +1,15 @@
+Texture      TexTileBlue    images/TileBlue.png
+Texture      TexTileGreen   images/TileGreen.png
+Texture      TexTileRed     images/TileRed.png
+Texture      TexTilePink    images/TilePink.png
+Texture      TexTileBrown   images/TileBrown.png
+Texture      TexPlayerSheet images/PlayerSheet.png
+
+Animation    TileBlue    TexTileBlue    1  0
+Animation    TileGreen   TexTileGreen   1  0
+Animation    TileRed     TexTileRed     1  0
+Animation    TilePink    TexTilePink    1  0
+Animation    TileBrown   TexTileBrown   1  0
+Animation    PlayerSheet TexPlayerSheet 4 15
+
+Font         3x6         fonts/m3x6.ttf

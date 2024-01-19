@@ -1,8 +1,38 @@
 #pragma once
 
 #include "Vector2.hpp"
+#include "Animation.hpp"
 
-class CCollision
+
+class Component
+{
+public:
+	bool has = false;
+};
+
+
+class CAnimation : public Component
+{
+public:
+	Animation animation;
+	bool repeat = false;
+
+	CAnimation() {}
+	CAnimation(const Animation& anim, bool r) : animation(anim), repeat(r) {}
+};
+
+class CBoundingBox : public Component
+{
+public:
+	Vector2 size;
+	Vector2 halfSize;
+
+	CBoundingBox() : size(0, 0), halfSize(0, 0) {}
+	CBoundingBox(float x, float y) : size(x, y), halfSize(x * 0.5f, y * 0.5f) {}
+	CBoundingBox(Vector2 s)    : size(s), halfSize(s * 0.5f) {}
+};
+
+class CCollision : public Component
 {
 public:
 	float radius = 0.f;
@@ -11,7 +41,7 @@ public:
 	CCollision(float r) : radius(r) {}
 };
 
-class CFont
+class CFont : public Component
 {
 public:
 	sf::Font font;
@@ -19,23 +49,68 @@ public:
 	CFont() {}
 };
 
-class CLifespan
+class CGravity : public Component
+{
+public:
+	float gravity = 0.f;
+
+	CGravity() {}
+	CGravity(float g) : gravity(g) {}
+};
+
+class CInput : public Component
+{
+public:
+	bool up = false;
+	bool down = false;
+	bool left = false;
+	bool right = false;
+	bool shoot = false;
+	bool canShoot = true;
+	bool canJump = true;
+
+	CInput() {}
+};
+
+class CLifespan : public Component
 {
 public:
 	int remaining = 0;
 	int total = 0;
+
+	CLifespan() {}
 	CLifespan(int tot) : remaining(tot), total(tot) {}
 };
 
-class CScore
+class CRaycast : public Component
+{
+public:
+	Vector2 castTo = Vector2(0, 0);
+
+	CRaycast() {}
+	CRaycast(float x, float y) : castTo(x, y) {}
+	CRaycast(Vector2 castCoords) : castTo(castCoords) {}
+};
+
+class CScore : public Component
 {
 public:
 	int score = 0;
 
+	CScore() {}
 	CScore(int s) : score(s) {}
 };
 
-class CShape
+class CState : public Component
+{
+public:
+	std::string state = "jumping";
+
+	CState() {}
+	CState(const std::string& s) : state(s) {}
+};
+
+class CShape : public Component
 {
 public:
 	sf::CircleShape circleShape;
@@ -58,7 +133,7 @@ public:
 	}
 };
 
-class CText
+class CText : public Component
 {
 public:
 	sf::Text text;
@@ -66,16 +141,19 @@ public:
 	CText() {}
 };
 
-class CTransform
+class CTransform : public Component
 {
 public:
-	Vector2 position;
-	Vector2 velocity;
-	Vector2 scale;
-	Vector2 offset;
+	Vector2 position     = { 0, 0 };
+	Vector2 prevPosition = { 0, 0 };
+	Vector2 velocity     = { 0, 0 };
+	Vector2 scale        = { 1, 1 };
+	Vector2 offset       = { 0, 0 };
 	float angle = 0.f;
 
 	CTransform() {}
+	CTransform(const Vector2& pos)
+		: position(pos), prevPosition(pos), velocity(Vector2(0, 0)), angle(0) {}
 	CTransform(const Vector2& pos, const Vector2& vel, float a)
-		: position(pos), velocity(vel), angle(a) {}
+		: position(pos), prevPosition(pos), velocity(vel), angle(a) {}
 };

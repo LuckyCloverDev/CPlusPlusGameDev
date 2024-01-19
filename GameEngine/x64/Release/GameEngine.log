@@ -1,37 +1,11 @@
-﻿  Entity.cpp
-  EntityManager.cpp
-  Game.cpp
-C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Game.cpp(391,92): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Game.cpp(391,72): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Game.cpp(391,152): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Game.cpp(391,132): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Game.cpp(407,137): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
-C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Game.cpp(407,131): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
-C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Game.cpp(407,125): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  (compiling source file 'Game.cpp')
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(255,82):
-  the template instantiation context (the oldest one first) is
-  	C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Game.cpp(376,30):
-  	see reference to function template instantiation 'std::shared_ptr<CCollision> std::make_shared<CCollision,int&>(int &)' being compiled
-  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory(2769,46):
-  	see reference to function template instantiation 'std::_Ref_count_obj2<CCollision>::_Ref_count_obj2<int&>(int &)' being compiled
-  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory(2094,18):
-  	see reference to function template instantiation 'void std::_Construct_in_place<_Ty,int&>(_Ty &,int &) noexcept(false)' being compiled
-          with
-          [
-              _Ty=CCollision
-          ]
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(255,82): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  (compiling source file 'Game.cpp')
-  
-  Input.hpp
-  Vector2.cpp
-  main.cpp
+﻿  Scene_Play.cpp
+C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Scene_Play.cpp(67,53): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Scene_Play.cpp(67,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Scene_Play.cpp(80,53): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Scene_Play.cpp(80,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   Generating code
-  170 of 669 functions (25.4%) were compiled, the rest were copied from previous compilation.
-    90 functions were new in current compilation
-    98 functions had inline decision re-evaluated but remain unchanged
+  1 of 1103 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    16 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   GameEngine.vcxproj -> C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\x64\Release\GameEngine.exe

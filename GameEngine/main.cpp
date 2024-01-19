@@ -1,16 +1,11 @@
-#include <SFML/Graphics.hpp>
-#include <fstream>
-#include <vector>
-
-#include "Vector2.hpp"
-#include "Game.hpp"
+#include "GameEngine.hpp"
 
 int main()
 {
 	srand((unsigned int)time(NULL));
 
-	Game geometryWars;
-	geometryWars.run();
+	GameEngine engine("assets.txt");
+	engine.run();
 	
 	return 0;
 }

@@ -1,6 +1,10 @@
+C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Animation.cpp;C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\x64\Release\Animation.obj
+C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Assets.cpp;C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\x64\Release\Assets.obj
 C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Entity.cpp;C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\x64\Release\Entity.obj
 C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\EntityManager.cpp;C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\x64\Release\EntityManager.obj
-C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Game.cpp;C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\x64\Release\Game.obj
+C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\GameEngine.cpp;C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\x64\Release\GameEngine.obj
 C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Input.hpp;C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\x64\Release\Input.obj
 C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\main.cpp;C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\x64\Release\main.obj
+C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Physics.cpp;C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\x64\Release\Physics.obj
+C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Scene_Play.cpp;C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\x64\Release\Scene_Play.obj
 C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Vector2.cpp;C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\x64\Release\Vector2.obj
