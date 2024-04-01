@@ -44,6 +44,7 @@ float Vector2::distance_to_squared(const Vector2& v) const { return (v.x - x) * 
 sf::Vector2f Vector2::to_sf_vector() { return sf::Vector2f(this->x, this->y); }
 
 float        Vector2::length()                       const { return sqrtf(x * x + y * y); }
+float        Vector2::crossProduct(Vector2 vec)      const { return x * vec.y - y * vec.x; }
 Vector2      Vector2::normalized()                   const { return (Vector2(0, 0) == *this) ? Vector2(0, 0) : (*this / this->distance_to(Vector2(0, 0))); }
 Vector2      Vector2::rotate(float degrees, bool radians = false) const
 {

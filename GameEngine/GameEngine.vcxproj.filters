@@ -45,6 +45,9 @@
     <ClCompile Include="Scene_Play.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="assets.txt" />
@@ -85,6 +88,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Physics.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -142,6 +142,7 @@
     <ClCompile Include="EntityManager.cpp" />
     <ClCompile Include="GameEngine.cpp" />
     <ClCompile Include="Input.hpp" />
+    <ClCompile Include="Line.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Physics.cpp" />
     <ClCompile Include="Scene_Play.cpp" />
@@ -159,6 +160,7 @@
     <ClInclude Include="Entity.hpp" />
     <ClInclude Include="EntityManager.hpp" />
     <ClInclude Include="GameEngine.hpp" />
+    <ClInclude Include="Line.hpp" />
     <ClInclude Include="Physics.hpp" />
     <ClInclude Include="Scene.hpp" />
     <ClInclude Include="Scene_Menu.hpp" />

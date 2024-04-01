@@ -30,6 +30,7 @@ public:
     sf::Vector2f to_sf_vector();
 
     float length() const;
+	float crossProduct(Vector2 vec) const;
     float distance_to(const Vector2& v) const;
     float distance_to_squared(const Vector2& v) const;
     Vector2 normalized() const;

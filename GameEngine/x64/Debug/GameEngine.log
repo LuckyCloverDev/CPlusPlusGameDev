@@ -1,11 +1,2 @@
-﻿  Entity.cpp
-  EntityManager.cpp
-  Input.hpp
-  Physics.cpp
-  Scene_Play.cpp
-C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Scene_Play.cpp(67,53): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Scene_Play.cpp(67,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Scene_Play.cpp(80,53): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\Scene_Play.cpp(80,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  Generating Code...
+﻿  GameEngine.cpp
   GameEngine.vcxproj -> C:\Users\Jeremiah Dobes\Documents\GitHub\C++ GameDev\CPlusPlusGamedev\GameEngine\x64\Debug\GameEngine.exe
